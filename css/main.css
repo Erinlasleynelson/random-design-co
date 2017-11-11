@@ -9,11 +9,26 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+   html {
+     box-sizing: border-box;
+   }
+   *, *:before, *:after {
+     box-sizing: inherit;
+   }
 
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+}
+
+body {
+  border: 1px solid red;
+}
+
+.header {
+  background-color:#555;
+  color: #fff;
 }
 
 /*
