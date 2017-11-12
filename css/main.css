@@ -153,9 +153,14 @@ textarea {
     transform: translate(-50%, -50%)
   }
 
+  .line {
+    display: block;
+  }
+
   .main h2 {
   color: #fff;
   font-size: 3.5em;
+  line-height: 1em;
 }
 
   button {
@@ -188,22 +193,28 @@ textarea {
   overflow: auto;
 }
 
-
 .project {
   position: relative;
-  width: 50%;
+  width: 45%;
   float: left;
+  margin: .07em;
 }
 
-.project-img {
+.project-image {
   display: block;
   position: relative;
   z-index: -10;
 }
 
+.project img {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+
 .project-content {
-  color: #fff;
-  font-size: 1em;
+  color: #000;
+  font-size: 110%;
   font-weight: bold;
   position: absolute;
   top: 50%;
@@ -211,21 +222,10 @@ textarea {
   transform: translate(-50%,-50%);
 }
 
-
 .footer {
 clear: both;
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
