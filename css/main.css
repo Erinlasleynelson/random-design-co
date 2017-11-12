@@ -9,12 +9,6 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-   html {
-     box-sizing: border-box;
-   }
-   *, *:before, *:after {
-     box-sizing: inherit;
-   }
 
 html {
     color: #222;
@@ -22,14 +16,6 @@ html {
     line-height: 1.4;
 }
 
-body {
-  border: 1px solid red;
-}
-
-.header {
-  background-color:#555;
-  color: #fff;
-}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -111,10 +97,68 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   html {
+     box-sizing: border-box;
+   }
+   *, *:before, *:after {
+     box-sizing: inherit;
+   }
 
+   body {
+     font-family: sans-serif;
+   }
 
+   img {
+     max-width: 100%;
+   }
 
+   .header {
+     background-color:#000;
+     color: #fff;
+     padding: 1em;
+   }
 
+  .header h1 {
+      margin: 0;
+      font-size: 1em;
+      }
+
+  .header i {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+  }
+
+  .main img {
+    width: 100%;
+    z-index: -10;
+    display: block;
+  }
+
+  .main {
+    border: 2px solid green;
+    position: relative;
+  }
+
+  .main h2 {
+    position: absolute;
+    top: 3em;
+    left: 4em;
+    color: #fff;
+    font-size: 3.5em;
+}
+
+.button {
+  background: transparent;
+  color: #fff;
+  padding: .8em 1.2em;
+  position: absolute;
+  top: 20em;
+  left: 17em;
+  border: 1.5px solid #fff;
+  font-size: 1.2em;
+
+}
 
 
 
