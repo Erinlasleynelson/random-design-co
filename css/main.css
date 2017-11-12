@@ -157,8 +157,38 @@ textarea {
   left: 17em;
   border: 1.5px solid #fff;
   font-size: 1.2em;
+}
+
+.aboutus {
+  padding: 0 1.5em 1.5em;
+  border-bottom: solid 1px #ddd;
+}
+
+.aboutus h2 {
+  font-size: 1em;
+  padding: 2em 0 0 0;
+}
+
+.latestwork {
+  padding: 0 1.5em 1em;
+  border-bottom: solid 1px #ddd;
+}
+
+.latestwork h2 {
+  font-size: 1em;
+  padding: 2em 0 0 0;
+}
+
+.latestwork img{
+  width: 45%;
+  float: left;
+}
+
+.footer {
+clear: both;
 
 }
+
 
 
 
