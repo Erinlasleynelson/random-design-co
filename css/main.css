@@ -108,14 +108,15 @@ textarea {
      font-family: sans-serif;
    }
 
-   img {
-     max-width: 100%;
-   }
-
    .header {
+     width: 100%;
      background-color:#000;
      color: #fff;
      padding: 1em;
+     position: fixed;
+     top: 0;
+     left:0;
+     z-index: 10;
    }
 
   .header h1 {
@@ -132,11 +133,9 @@ textarea {
   .main img {
     width: 100%;
     z-index: -10;
-    display: block;
   }
 
   .main {
-    border: 2px solid green;
     position: relative;
   }
 
@@ -157,6 +156,11 @@ textarea {
   left: 17em;
   border: 1.5px solid #fff;
   font-size: 1.2em;
+}
+
+button:hover {
+  background-color:#fff;
+  color: #000;
 }
 
 .aboutus {
