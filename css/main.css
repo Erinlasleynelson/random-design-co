@@ -176,7 +176,7 @@ textarea {
   border-bottom: solid 1px #ddd;
 }
 
-.aboutus h2 {
+ h2 {
   font-size: 1em;
   padding: 2em 0 0 0;
 }
@@ -184,17 +184,33 @@ textarea {
 .latestwork {
   padding: 0 1.5em 1em;
   border-bottom: solid 1px #ddd;
+  margin: 1em;
+  overflow: auto;
 }
 
-.latestwork h2 {
-  font-size: 1em;
-  padding: 2em 0 0 0;
-}
 
-.latestwork img{
-  width: 45%;
+.project {
+  position: relative;
+  width: 50%;
   float: left;
 }
+
+.project-img {
+  display: block;
+  position: relative;
+  z-index: -10;
+}
+
+.project-content {
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
 
 .footer {
 clear: both;
