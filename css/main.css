@@ -188,29 +188,32 @@ textarea {
 
 .latestwork {
   padding: 0 1.5em 1em;
+  margin: 1em .5em 2em 1em;
   border-bottom: solid 1px #ddd;
-  margin: 1em;
   overflow: auto;
 }
 
 .project {
   position: relative;
-  width: 45%;
+  width: 49%;
   float: left;
-  margin: .07em;
+  margin: .08em;
 }
 
 .project-image {
   display: block;
   position: relative;
+  width: 100%;
   z-index: -10;
 }
 
 .project img {
   opacity: 0.5;
-  filter: alpha(opacity=50);
 }
 
+.project img:hover {
+  opacity: 1;
+}
 
 .project-content {
   color: #000;
@@ -222,9 +225,10 @@ textarea {
   transform: translate(-50%,-50%);
 }
 
-.footer {
+.footer p{
 clear: both;
-
+text-align: center;
+margin: 1em 2em 1em 12em;
 }
 
 
