@@ -99,12 +99,14 @@ textarea {
    ========================================================================== */
    html {
    box-sizing: border-box;
+   font-style: san-serif;
  }
  *, *:before, *:after {
    box-sizing: inherit;
  }
 body {
-  padding-top: 3em;
+  padding-top: 3.25em;
+  font-family: sans-serif;
 }
 
  h1
@@ -130,6 +132,7 @@ img {
 
 .page-header h1 {
   margin: 0;
+  font-size: 1.25em;
 }
 
 .page-header .main-nav {
@@ -137,6 +140,62 @@ img {
   top: 1em;
   right: 1em;
 }
+
+.page-section {
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.25em;
+  border: 0.125 solid #000;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #000;
+}
+
+.btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.jumbotron {
+  padding: 0;
+  position: relative;
+}
+
+.jumbotron_bg {
+  position: relative;
+  z-index: -10;
+  display: block;
+  width: 100%;
+}
+
+.jumbotron_content {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  line-height: 1;
+  color: #fff;
+}
+
+.jumbotron_content h2 {
+  margin-top: 0;
+  font-size: 3em;
+}
+
+.jumbotron_content .btn {
+  color: #fff;
+  border-color: #fff;
+}
+
+.jumbotron_content .btn:hover {
+background-color: #fff;
+color:#000;
+}
+
 
 
 /* ==========================================================================
