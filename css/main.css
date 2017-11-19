@@ -98,141 +98,45 @@ textarea {
    Author's custom styles
    ========================================================================== */
    html {
-     box-sizing: border-box;
-   }
-   *, *:before, *:after {
-     box-sizing: inherit;
-   }
-
-   body {
-     font-family: sans-serif;
-   }
-
-   .header {
-     width: 100%;
-     background-color:#000;
-     color: #fff;
-     padding: 1em;
-     position: fixed;
-     top: 0;
-     left:0;
-     z-index: 10;
-   }
-
-  .header h1 {
-      margin: 0;
-      font-size: 1em;
-      }
-
-  .header i {
-    position: absolute;
-    right: 1em;
-    top: 1em;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  .main {
-    position: relative;
-  }
-
-  .bgimage {
-    display: block;
-    width: 100%;
-    position: relative;
-    z-index: -10;
-  }
-
-  .main-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%)
-  }
-
-  .line {
-    display: block;
-  }
-
-  .main h2 {
-  color: #fff;
-  font-size: 3.5em;
-  line-height: 1em;
+   box-sizing: border-box;
+ }
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
+body {
+  padding-top: 3em;
 }
 
-  button {
-  background: transparent;
-  color: #fff;
-  padding: .8em 1.2em;
-  border: 1.5px solid #fff;
-  font-size: 1.2em;
+ h1
+ h2
+ h3{
+   font-size: 1em;
+   text-transform: uppercase;
+ }
+
+img {
+  max-width: 100%;
 }
 
-  button:hover {
-  background-color:#fff;
-  color: #000;
-}
-
-.aboutus {
-  padding: 0 1.5em 1.5em;
-  border-bottom: solid 1px #ddd;
-}
-
- h2 {
-  font-size: 1em;
-  padding: 2em 0 0 0;
-}
-
-.latestwork {
-  padding: 0 1.5em 1em;
-  margin: 1em .5em 2em 1em;
-  border-bottom: solid 1px #ddd;
-  overflow: auto;
-}
-
-.project {
-  position: relative;
-  width: 49%;
-  float: left;
-  margin: .08em;
-}
-
-.project-image {
-  display: block;
-  position: relative;
+.page-header {
+  background: #000;
+  color: white;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  z-index: -10;
 }
 
-.project img {
-  opacity: 0.5;
+.page-header h1 {
+  margin: 0;
 }
 
-.project img:hover {
-  opacity: 1;
-}
-
-.project-content {
-  color: #000;
-  font-size: 110%;
-  font-weight: bold;
+.page-header .main-nav {
   position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  top: 1em;
+  right: 1em;
 }
-
-footer {
-clear: both;
-position: absolute;
-top: 2em;
-left:7em;
-}
-
-
 
 
 /* ==========================================================================
